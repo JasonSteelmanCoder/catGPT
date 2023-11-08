@@ -1,0 +1,20 @@
+**Overarching**: 
+
+Make it responsive with CSS
+Make it interactive with JavaScript
+
+
+**Tweaks**:
+
+Add img alts
+Improve the more-ideas button
+Fix cursor hover on hamburger button
+Maybe clean up hamburger style
+Make Terms and Privacy clickable in footer
+Improve accessibility
+
+**JS**:
+Make drop-down menu from hamburger button
+Make more ideas display items that are below-the-fold
+Make see-more button in about-us display the whole text
+Give warning text when form submission is pressed with improper input values 

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatGPT</title>
+    <link rel="icon" href="./resources/images/new-kitty-logo.jpg">
+    <link rel="stylesheet" href="./resources/CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo"><a href="#" id="logo-link"><img src="./resources/images/new-kitty-logo.jpg" id="logo-img">CatGPT</a></li>
+                <li id="call-to-action" class="cta-button"><a href="#sign-up">Sign up!</a></li>
+                <li id="menu"><button><img src="./resources/images/hamburger-icon.png"></button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>CatGPT</h1>
+            <p>Think like a cat with CatGPT.</p>
+            <br>
+            <a id="hero-call-to-action" class="cta-button" href="#sign-up">Sign up!</a>
+        </section>
+        <section id="about-catgpt">
+            <div id="left-about-section">
+                <h2 id="testimonial">"CatGPT is like having my own cat right here!"</h2>
+                <span id="quote-attribution">--Customer</span>
+                <p class="small-screens" id="tagline">CatGPT doesn't just talk like a cat. It thinks like a cat.</p>
+            </div>
+            <section id="capabilities">
+                <div class="capability">
+                    <div class="capability-img" id="meow-capability"></div>
+                    <div class="capability-text">
+                        <h3>Text-to-meow capability</h3>
+                        <p>Talk to CatGPT like a kitty and get back realistic meows and purrs!</p>
+                        <br>
+                        <p>Disclaimer: May hiss on rare occasions</p>
+                    </div>
+                </div>
+                <div class="capability">
+                    <div class="capability-img" id="thought-capability"></div>
+                    <div class="capability-text">
+                        <h3>New! Cat thought translation!</h3>
+                        <p>Now you can think like a cat. Talk with CatGPT to hear what your cat would say if it could only talk!</p>
+                    </div>
+                </div>
+                <div class="capability">
+                    <div class="capability-img" id="hairball-capability"></div>
+                    <div class="capability-text">
+                        <h3>Fewer hairballs</h3>
+                        <p>With our new, advanced veterinary care, CatGPT is less likely than ever to cough up a hairball.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <img id="listening-cat-img" src="./resources/images/listening-cat-web-sized.jpg" class="small-screens">
+        <section id="prompt-ideas">
+            <h2 id="prompt-title">Try These Prompts!</h2>
+            <div class="prompt-card">
+                <div class="prompt-image"></div>
+                <div class="prompt-text">How did you manage to get on top of the fridge?</div>
+            </div>    
+            <div class="prompt-card">
+                <div class="prompt-image"></div>
+                <div class="prompt-text">Who's the softest kitty in the world? You are!</div>
+            </div>    
+            <div class="prompt-card">
+                <div class="prompt-image"></div>
+                <div class="prompt-text">Did you seriously just knock that glass off the table on purpose?</div>
+            </div>    
+            <div class="prompt-card">
+                <div class="prompt-image"></div>
+                <div class="prompt-text">It's 3 a.m. Why are you running the Indy 500 around the house?</div>
+            </div>    
+            <div class="prompt-card below-the-fold">
+                <div class="prompt-image"></div>
+                <div class="prompt-text">You fit, you sit, huh?</div>
+            </div>    
+            <div class="prompt-card below-the-fold">
+                <div class="prompt-image"></div>
+                <div class="prompt-text">You're the reason we can't have nice things, you know?</div>
+            </div>    
+            <div class="prompt-card below-the-fold">
+                <div class="prompt-image"></div>
+                <div class="prompt-text">Let's take another nap together, fluffball.</div>
+            </div>    
+            <div class="prompt-card below-the-fold">
+                <div class="prompt-image"></div>
+                <div class="prompt-text">You're my own personal alarm clock with claws, huh?</div>
+            </div>
+            <button class="small-screens">More Ideas...</button>    
+        </section>
+        <section id="about-meowpenai" class="big-screens">
+            <img src="./resources/images/listening-cat-web-sized.jpg">
+            <h2>About meOwpenAI</h2>
+            <p>Welcome to meOwpenAI, the trailblazers in feline-human communication! At meOwpenAI, we're 
+                passionate about unlocking the mysteries of our feline friends' thoughts and meows. Our revolutionary 
+                Large Cat Language Model (LCLM), 'CatGPT,' is the pinnacle of our pioneering 
+                spirit. <br><br>Designed to bridge the linguistic gap between humans and cats, CatGPT interprets 
+                whisker-twitches, tail-flicks, and an array of meows, translating them into human-readable language. 
+                Our technology opens up a new chapter in inter-species communication, fostering deeper bonds between 
+                cat lovers and their cherished companions. <br><br>Join us in our mission to transform mere meows into 
+                meaningful conversations and cat chatters into charming chats. With meOwpenAI, you're not just petting 
+                your cat; you're conversing with a friend.</p>
+        </section>
+        <section id="sign-up">
+            <form action="" method="POST">
+                <h2>Sign Up Today!</h2>
+                <label for="username">Username: </label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <label for="retype-password">Retype Password: </label>
+                <input type="password" id="retype-password" name="retype-password" required>
+                <br><br>
+                <label for="user-type">Which option best describes you?</label>
+                <select id="user-types" required>
+                    <option>I'm a cat owner</option>
+                    <option>I'm a cat meme enthusiast</option>
+                    <option>Meeeow Prr (I'm a cat)</option>
+                </select>
+                <br><br>
+                <p>Send me kitty gifs!</p>
+                <input type="radio" id="send-kitty-gifs" name="send-kitty-gifs" value="yes" class="radio-button" required checked>
+                <label for="yes">Yes</label>
+                <input type="radio" name="send-kitty-gifs" value="no" class="radio-button">
+                <label for="no">No</label>
+                <br>
+                <input type="submit" value="Let's Go!">
+            </form>
+            <aside id="feature-reminders" class="big-screens">
+                <h3>Your membership gets you access to: </h3>
+                <ul>
+                    <li>Unlimited meows and purrs</li>
+                    <li>Up to 25 kitty thoughts per hour</li>
+                    <li>A chatting experience free from litter scooping</li>
+                    <li>and so much more!</li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>meOwpenAI © 2015</p>
+        <a>Terms</a>
+        <a>Privacy</a>
+    </footer>
+    <script src="./resources/JavaScript/main.js"></script>
+</body>
+</html>

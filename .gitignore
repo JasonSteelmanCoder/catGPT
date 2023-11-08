@@ -1,0 +1,44 @@
+# Dependency directories (Node.js)
+node_modules/
+
+# Production build (Node.js)
+/dist
+
+# dotenv environment variable files
+.env
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# build and distribution directories
+/build
+/deploy
+/dist
+/public
+
+# CSS map files
+*.css.map
+
+# sass build folders
+.sass-cache/
+
+# SQL data export files and scripts
+*.sql
+*.psql
+*.backup
+*.dump
