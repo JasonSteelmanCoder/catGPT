@@ -1,13 +1,17 @@
 **Tweaks**:
 
-Make drop-down menu links go to correct place, despite header height
+Link prompt cards to sign-up
+Add a page for after users sign up
 Style the more-ideas button
+
+Style the drop-down menu (on extended)
 Clean up hamburger button's style
 Improve accessibility
-Style the drop-down menu (on extended)
 
 **JS**:
-Animate prompt ideas? (& make them links)
+Make drop-down-menu collapse when you click something else
+Validate form inputs
 Give warning text when form submission is pressed with improper input values 
-Validate form inputs?
+
 Think about drop-down menu items possibly accessing large-screen items
+Animate prompt ideas? (& make them links)

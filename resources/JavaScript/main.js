@@ -1,6 +1,8 @@
 const hamburger = document.querySelector("#menu button");
 const dropdownMenu = document.getElementById('dropdown-menu');
 const menuLinks = document.querySelectorAll('.dropdown-item');
+
+const prompts = document.querySelectorAll('.prompt-card');
 const moreIdeasButton = document.querySelector('#more-ideas-button')
 const belowTheFoldItems = document.querySelectorAll('.below-the-fold');
 
@@ -14,8 +16,7 @@ hamburger.addEventListener('click', () => {
 
 for (let i = 0; i < menuLinks.length; i++) {
     menuLinks[i].addEventListener('click', () => {
-        dropdownMenu.class = 'collapsed';
-        dropdownMenu.style.display = 'none';
+        dropdownMenu.className = 'collapsed';
     })
 }
 
@@ -32,3 +33,18 @@ moreIdeasButton.addEventListener('click', () => {
         moreIdeasButton.innerHTML = 'More Ideas...';
     }    
 })
+
+for (let i = 0; i < prompts.length; i++) {
+
+    let prompt = prompts[i];
+
+    prompt.addEventListener('mouseover', () => {
+        prompt.style.border = '1px solid white';
+        prompt.style.fontSize = '17px';
+    });
+
+    prompt.addEventListener('mouseout', () => {
+        prompt.style.border = '1px solid black';
+        prompt.style.fontSize = '16px';
+    });
+}
