@@ -1,6 +1,7 @@
 const hamburger = document.querySelector("#menu button");
 const dropdownMenu = document.getElementById('dropdown-menu');
 const menuLinks = document.querySelectorAll('.dropdown-item');
+const docMain = document.querySelectorAll('main, #logo, #call-to-action')
 
 const prompts = document.querySelectorAll('.prompt-card');
 const moreIdeasButton = document.querySelector('#more-ideas-button')
@@ -47,4 +48,13 @@ for (let i = 0; i < prompts.length; i++) {
         prompt.style.border = '1px solid black';
         prompt.style.fontSize = '16px';
     });
+}
+
+for (let i = 0; i < docMain.length; i++) {
+    let element = docMain[i];
+    element.addEventListener('click', () => {
+        if (dropdownMenu.className === 'expanded') {
+            dropdownMenu.className = 'collapsed';
+        }
+    })
 }

@@ -9,7 +9,6 @@ Clean up hamburger button's style
 Improve accessibility
 
 **JS**:
-Make drop-down-menu collapse when you click something else
 Validate form inputs
 Give warning text when form submission is pressed with improper input values 
 
