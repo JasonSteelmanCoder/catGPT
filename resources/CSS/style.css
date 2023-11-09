@@ -163,16 +163,24 @@ section:not(#hero) {
     margin-bottom: -5px;
 }
 
-.below-the-fold {
-    display: none;
-}
-
 .prompt-card {
     margin: .25rem 0;
     padding: .75rem .5rem;
     background-color: rgba(252, 252, 252, 1);
     border: 1px solid rgba(63, 63, 63, 1);
     border-radius: 4px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.below-the-fold {
+    display: none;
+}
+
+#button-container {
+    display: flex;
+    justify-content: flex-end;
 }
 
 #more-ideas-button:hover {

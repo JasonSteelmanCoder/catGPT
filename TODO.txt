@@ -1,16 +1,13 @@
-**Tweaks**:
+**TODO:**
 
-Link prompt cards to sign-up
+Fix prompt links to encompass the whole card--not just the text
 Add a page for after users sign up
-Style the more-ideas button
+Validate form inputs
+Give warning text when form submission is pressed with improper input values 
 
 Style the drop-down menu (on extended)
 Clean up hamburger button's style
 Improve accessibility
-
-**JS**:
-Validate form inputs
-Give warning text when form submission is pressed with improper input values 
-
 Think about drop-down menu items possibly accessing large-screen items
 Animate prompt ideas? (& make them links)
+
