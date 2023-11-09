@@ -16,6 +16,18 @@ h2, h3 {
     margin: 1rem 0;
 }
 
+.collapsed {
+    display: none;
+}
+
+.expanded {
+    display: block;
+    text-align: right;
+    position: relative;
+    margin-right: 4rem;
+    margin-left: 50vw;
+}
+
 /* Header */
 
 header {
@@ -44,6 +56,10 @@ ul li a {
 
 #menu button {
     background-color: rgba(252, 252, 252, 1);
+}
+
+#menu button:hover {
+    cursor: pointer;
 }
 
 #menu img {
@@ -152,6 +168,10 @@ section:not(#hero) {
     background-color: rgba(252, 252, 252, 1);
     border: 1px solid rgba(63, 63, 63, 1);
     border-radius: 4px;
+}
+
+#more-ideas-button:hover {
+    cursor: pointer;
 }
 
 /* sign-up */

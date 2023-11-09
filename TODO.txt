@@ -1,20 +1,13 @@
-**Overarching**: 
-
-Make it responsive with CSS
-Make it interactive with JavaScript
-
-
 **Tweaks**:
 
-Add img alts
-Improve the more-ideas button
-Fix cursor hover on hamburger button
-Maybe clean up hamburger style
-Make Terms and Privacy clickable in footer
+Make drop-down menu links go to correct place, despite header height
+Style the more-ideas button
+Clean up hamburger button's style
 Improve accessibility
+Style the drop-down menu (on extended)
 
 **JS**:
-Make drop-down menu from hamburger button
-Make more ideas display items that are below-the-fold
-Make see-more button in about-us display the whole text
+Animate prompt ideas? (& make them links)
 Give warning text when form submission is pressed with improper input values 
+Validate form inputs?
+Think about drop-down menu items possibly accessing large-screen items
