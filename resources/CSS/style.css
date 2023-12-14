@@ -72,6 +72,10 @@ ul li a {
     font-size: 1.25rem;
 }
 
+#logo-link {
+    color: black;
+}
+
 #logo a:visited {
     color: black;
 }
